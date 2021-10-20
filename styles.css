@@ -1,0 +1,82 @@
+h1 {
+  display: inline-block;
+  text-align: center;
+}
+nav {
+  display: inline-block;
+  text-align: right;
+}
+.line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+div {
+  margin-bottom: 30px;
+}
+.block {
+  display: flex;
+  justify-content: center;
+}
+.block_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.paragraphe {
+  width: 30%;
+  display: inline-block;
+  text-align: justify;
+  margin: 20px;
+}
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.carte {
+  width: 290px;
+  height: 310px;
+  border-radius: 3%;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 20px;
+}
+li {
+  display: inline;
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+.carre {
+  border-radius: 8px;
+  width: 220px;
+  height: 250px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.galery {
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
